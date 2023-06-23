@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.sub-page__top {
+  text-align: center;
+}
+.sub-page__top-title {
+  font-size: 50px;
+  margin-bottom: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.sub-page__top-text {
+  font-size: 20px;
+  color: rgb(96, 96, 96);
+  font-family: "Open Sans", sans-serif;
+}
+.sub-page__top-payment-type {
+  background-color: rgb(214, 214, 214);
+  text-align: center;
+  margin: 0 auto;
+  width: 250px;
+  font-size: 15px;
+  padding: 17px;
+  border-radius: 25px;
+}
+.sub-page__btn {
+  text-decoration: none;
+  color: gray;
+  margin: 5px;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+}
+.sub-page__btn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+.sub-page__bottom-items {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.sub-page__bottom-left {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 20px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 350px;
+}
+.sub-page__bottom-right {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 20px;
+  width: 350px;
+}
+.sub-page__bottom-title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.sub-page__bottom-text {
+  color: gray;
+}
+.sub-page__bottom-price {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 10px;
+}
+.sub-page__bottom-price-span {
+  font-size: 20px;
+  color: gray;
+}
+.sub-page__bottom-box-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  margin: 0;
+}
+.sub-page__bottom-box-text {
+  color: gray;
+}
+.sub-page__bottom-box {
+  display: flex;
+}
+.sub-page__bottom-box-img {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border: 1px solid gray;
+  height: 32px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.sub-page__bottom-button {
+  background-color: rgb(232, 232, 232);
+  text-align: center;
+  margin: 0;
+  display: block;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.buttom-right-style {
+  background-color: rgb(42, 1, 42);
+  color: white;
+}
+
+.gradient-background {
+  background-position: top;
+  background: rgb(255, 95, 231);
+  background: radial-gradient(ellipse at top, rgba(255, 95, 231, 0.7917760854) 0%, rgba(245, 143, 147, 0.7301514356) 28%, rgba(232, 233, 148, 0.7833727241) 57%, rgba(232, 233, 148, 0.3407956933) 79%, rgba(232, 233, 148, 0) 100%);
+}/*# sourceMappingURL=index.css.map */
