@@ -65,28 +65,20 @@ body {
         }
     }
 
-    &__bottom-left {
-        border: 1px solid gray;
-        border-radius: 25px;
-        padding: 20px;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        width: 350px;
-        margin: 0 auto;
-    }
-
-    &__bottom-right {
+    &__bottom-memberships {
         border: 1px solid gray;
         border-radius: 25px;
         padding: 20px;
         width: 350px;
         margin: 0 auto;
+        position: relative;
     }
 
     &__bottom-title {
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 800;
+        margin-bottom: 0;
     }
 
     &__bottom-text {
@@ -113,6 +105,7 @@ body {
 
     &__bottom-box-text {
         color: gray;
+        margin-top: 10px;
     }
 
     &__bottom-box {
@@ -139,6 +132,18 @@ body {
         text-decoration: none;
         color: black;
     }
+
+    &__bottom-mostpopular {
+        background-color: white;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        padding: 5px;
+        border-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-right: 20px;
+    }
 }
 
 .buttom-right-style {
@@ -148,9 +153,13 @@ body {
 
 .gradient-background {
     background: rgb(255, 95, 231);
-    background: linear-gradient(180deg, rgba(255, 95, 231, 0.49625787815126055) 0%, rgba(245, 143, 147, 0.5046612394957983) 28%, rgba(232, 233, 148, 0.36740633753501406) 57%, rgba(232, 233, 148, 0) 79%, rgba(232, 233, 148, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 95, 231, 0.2931766456582633) 0%, rgba(245, 143, 147, 0.5046612394957983) 28%, rgba(232, 233, 148, 0.36740633753501406) 57%, rgba(232, 233, 148, 0) 79%, rgba(232, 233, 148, 0) 100%);
 }
 
+.column-start {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 .price-area {
     display: flex;
@@ -170,7 +179,8 @@ body {
     top: 4px;
     width: 80px;
     height: 10px;
-    font-size: 10px;
+    font-size: 14px;
+    font-family: $font;
     font-weight: bold;
     text-align: center;
     line-height: 1;
